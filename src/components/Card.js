@@ -8,12 +8,12 @@ import cardsArray from '../cardsArray.json'
 class BugCard extends React.Component {
     state  = {
         points: 0,
-        clickedArray: [8]
+        clickedArray: []
     };
     handleClick =  (id) => {
         if(! this.state.clickedArray.find((element) => {return element === id})){
             this.setState({points: this.state.points+1});
-            this.setState({clickedArray: this.state.clickedArray.push(id)})
+            this.setState({clickedArray: this.state.clickedArray.concat(id)})
             console.log(this.state.clickedArray)
         }
         else{
