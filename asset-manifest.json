@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.8c44c5a5.chunk.css",
-  "main.js": "/static/js/main.793bddcf.chunk.js",
-  "main.js.map": "/static/js/main.793bddcf.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.c5541365.js",
-  "runtime~main.js.map": "/static/js/runtime~main.c5541365.js.map",
-  "static/js/2.7b7f7f25.chunk.js": "/static/js/2.7b7f7f25.chunk.js",
-  "static/js/2.7b7f7f25.chunk.js.map": "/static/js/2.7b7f7f25.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.fdccf7c56bdbede15fcbe54de1f6c327.js": "/precache-manifest.fdccf7c56bdbede15fcbe54de1f6c327.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.8c44c5a5.chunk.css.map": "/static/css/main.8c44c5a5.chunk.css.map"
+  "main.css": "/react-woodclickers/static/css/main.8c44c5a5.chunk.css",
+  "main.js": "/react-woodclickers/static/js/main.823f3c68.chunk.js",
+  "main.js.map": "/react-woodclickers/static/js/main.823f3c68.chunk.js.map",
+  "runtime~main.js": "/react-woodclickers/static/js/runtime~main.c79ef992.js",
+  "runtime~main.js.map": "/react-woodclickers/static/js/runtime~main.c79ef992.js.map",
+  "static/js/2.7b7f7f25.chunk.js": "/react-woodclickers/static/js/2.7b7f7f25.chunk.js",
+  "static/js/2.7b7f7f25.chunk.js.map": "/react-woodclickers/static/js/2.7b7f7f25.chunk.js.map",
+  "index.html": "/react-woodclickers/index.html",
+  "precache-manifest.3981d49342def44a0080bcecce6da1d5.js": "/react-woodclickers/precache-manifest.3981d49342def44a0080bcecce6da1d5.js",
+  "service-worker.js": "/react-woodclickers/service-worker.js",
+  "static/css/main.8c44c5a5.chunk.css.map": "/react-woodclickers/static/css/main.8c44c5a5.chunk.css.map"
 }
