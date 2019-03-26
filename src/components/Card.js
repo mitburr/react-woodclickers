@@ -1,13 +1,27 @@
 import React from 'react'
 import './Card.css'
+import cardArray from './listArray'
+import Title from './Header'
+import CardsArray from '../cardsArray.json'
 
-function BugCard (props){
-    
-    let listArray = props.imgArray.map(
-        element => <li><img src = {element.URL} alt = {element.title} height = "150" width = "150"></img></li>
-    )
 
-return <ul id = "list">{listArray}</ul>
+
+
+class BugCard extends React.Component {
+    state  = {
+        points: 0
+    }
+    handleClick =  () => {
+            console.log("smth")
+            this.setState({points: this.state.points++});
+        }
+        
+        render(){
+            return <div>
+                <Title />
+               <CardsArray />
+            </div>
+        }
 }
 
 export default BugCard

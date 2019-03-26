@@ -8,7 +8,7 @@ import BugCard from './components/Card'
 function App() {
   return <wrapper> 
     <Title />
-    <BugCard imgArray = {cardsArray}/>
+    <BugCard imgArray = {cardsArray} />
   </wrapper>
 }
 export default App;
