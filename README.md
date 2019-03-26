@@ -1,68 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+D:< It's so close!
+<h1>Woodclickers!</h1>
 
-## Available Scripts
 
-In the project directory, you can run:
+<h2>Description</h2>
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h4> the goal of the application is to create a 'memory' like game where you select tiles until you select a tile that hasn't been selected. The points in the game are determined by how many correct clicks you get before selecting a tile twice.</h3>
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
+</hr>
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<h2>Outstanding issues</h2>
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h4>Currenntly there's one major error that inhibits the intended functionality: on the second click of a tile the find function for the array of clicked tiles fails. I'm certain that the array updates after the first click, as it is console.logged, but then the find function can't be found. It seems like, after adding data to the array, the array's type changes so the .find method is no longer available. I have no idea what's causing this. One possible workaround could be to run a function that updates a temp variable if the id is matched in the array. This would be really clunky, but would probably do the job. Once that is working I believe that the app would be complete.</h4>
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</hr>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<h2>Future Directions</h2>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h4> I definitely intend to keep working on this project: I'd like to transition it into an incremental game, like cookie clicker or clicker heroes. That would be a big but completely doable project. I would need to implement a backend to keep track of progress while the player is offline, and I'd basically need to redesign the game from the ground up.</h4>
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<h4>Additionally there's currently no styling for the game. This is easily fixable but would take quite a bit of work. I will do this once I implement the new functionality.</h4>
