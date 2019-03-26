@@ -1,5 +1,4 @@
 import React from 'react'
-import points from './Card'
 
 let Header = function(props){
         return <div id = "head">
